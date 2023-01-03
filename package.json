@@ -1,0 +1,15 @@
+{
+  "name": "manage-landing-page-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Manage landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/tailwind.scss -o ./dist/css/style.css --watch",
+    "sass": "sass ./src/tailwind.scss ./dist/css/style.css --watch"
+  },
+  "author": "Florim Bulica",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
